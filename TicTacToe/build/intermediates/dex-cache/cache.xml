@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pierre Dayag\Desktop\schoolwork\itc162\TicTacToe\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\Pierre Dayag\Desktop\schoolwork\itc162\TicTacToe\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_c2ff26ffa81dda8f230e9b97f1e1f8d8591a2e21\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pierre Dayag\Desktop\schoolwork\itc162\TicTacToe\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8ea3c376f7b4348988c0d307334a3aa773ca1941">
+        <dex dex="C:\Users\Pierre Dayag\Desktop\schoolwork\itc162\TicTacToe\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_743f458b47302c554db679fbb9f1edf5ba2400a8\classes.dex" />
+    </item>
+
+</items>
