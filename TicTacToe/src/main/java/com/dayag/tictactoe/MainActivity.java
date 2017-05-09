@@ -79,15 +79,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         editor.putInt("turn", turn);
         editor.putBoolean("gameOver",gameOver);
 
-        editor.putString("1a",square1.getText().toString());
-        editor.putString("1b",square2.getText().toString());
-        editor.putString("1c",square3.getText().toString());
-        editor.putString("2a",square4.getText().toString());
-        editor.putString("2b",square5.getText().toString());
-        editor.putString("2c",square6.getText().toString());
-        editor.putString("3a",square7.getText().toString());
-        editor.putString("3b",square8.getText().toString());
-        editor.putString("3c",square9.getText().toString());
+        editor.putString("1",square1.getText().toString());
+        editor.putString("2",square2.getText().toString());
+        editor.putString("3",square3.getText().toString());
+        editor.putString("4",square4.getText().toString());
+        editor.putString("5",square5.getText().toString());
+        editor.putString("6",square6.getText().toString());
+        editor.putString("7",square7.getText().toString());
+        editor.putString("8",square8.getText().toString());
+        editor.putString("9",square9.getText().toString());
 
         editor.commit();
         super.onPause();
@@ -103,15 +103,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         turn = savedValues.getInt("turn",0);
         gameOver = savedValues.getBoolean("gameOver",false);
 
-        square1.setText(savedValues.getString("1a",""));
-        square2.setText(savedValues.getString("1b",""));
-        square3.setText(savedValues.getString("1c",""));
-        square4.setText(savedValues.getString("2a",""));
-        square5.setText(savedValues.getString("2b",""));
-        square6.setText(savedValues.getString("2c",""));
-        square7.setText(savedValues.getString("3a",""));
-        square8.setText(savedValues.getString("3b",""));
-        square9.setText(savedValues.getString("3c",""));
+        square1.setText(savedValues.getString("1",""));
+        square2.setText(savedValues.getString("2",""));
+        square3.setText(savedValues.getString("3",""));
+        square4.setText(savedValues.getString("4",""));
+        square5.setText(savedValues.getString("5",""));
+        square6.setText(savedValues.getString("6",""));
+        square7.setText(savedValues.getString("7",""));
+        square8.setText(savedValues.getString("8",""));
+        square9.setText(savedValues.getString("9",""));
 
     }
 
@@ -235,7 +235,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
     }
-    
+
     private int getSquareState(Button b){
         if (b.getText().toString().equals("X")){
             return 1;
