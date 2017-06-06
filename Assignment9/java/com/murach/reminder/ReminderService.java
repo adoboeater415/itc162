@@ -56,6 +56,7 @@ public class ReminderService extends Service {
     public void onDestroy(){
 
         Log.d("News Reader", "Service Destroyed");
+        stopTimer();
 
     }
 
@@ -63,6 +64,7 @@ public class ReminderService extends Service {
     public IBinder onBind(Intent intent) {
 
         return null;
+        
 
     }
 
